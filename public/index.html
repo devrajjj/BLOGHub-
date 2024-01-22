@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>BLOGHUB</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="...">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Greycliff:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name:weight">
+
+
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/44cab07c8b.js" crossorigin="anonymous"></script>
+    <!--bootstrap scripts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--poppins font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+
+    <!--icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="public/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body>
+<section id="title">
+    <div class="header-cover">  
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <i class="fa-solid fa-blog"></i>
+            <a class="navbar-brand" href=""><h1>
+                <span class="blog">BLOG</span> 
+                <span class="hub">Hub</span>
+            </h1></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+   
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+   
+           <ul class="navbar-nav ms-auto">
+               <li class="nav-item">
+                   <a class="nav-link" href="home"><h5>Home</h4></a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="about"><h5>About</h4></a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="contact"><h5>Contact</h4></a>
+               </li>
+           </ul>
+        </nav>
+        </div> 
+    </div>  
+</section> 
+
+    <section id="content">
+        <div class="scenery-container">
+            <img src="images/image2.jpg" class="scenery" alt="A descriptive alt text">
+            <div class="overlay-text"><span class="heading">Welcome to BlogHub !</span><br>
+            <span class="cover-text">Discover Stories, Inspire Moments: Your Daily Dose of Life's Adventures!</span>
+            </div>
+        </div>      
+        <div class="brief">
+            <h4>Unleash Your Stories: Where Every Journey Becomes a Tale Worth Sharing! 📝✨</h4>
+            <p>Join BlogHub and pen down your stories with us. Write, Read and share your experiences.</p>
+        </div>  
+        <div class="posts">
+            <div class="card-container">
+              <div class="card shadow">
+                <img src="images/travel.jpg" class="postPic" alt="Travel_Image">
+                <!--<div class="over_text">TRAVEL</div>-->
+              </div>
+              <div class="card shadow">
+                <img src="images/Food.jpg" class="postPic" alt="Food_Image">
+                <!--<div class="over_text">FOOD</div>-->
+              </div>
+              <div class="card shadow">
+                <img src="images/Sports.jpg" class="postPic" alt="Sports_Image">
+                <!--<div class="over_text">SPORTS</div>-->
+              </div>
+            </div>   
+        </div>
+
+        <div class="start">
+            <button class="over_button" onclick="redirectToLogin()"> Get Started</button>
+            <div class="text-container">
+                <span class="tt">Whether sharing your expertise, breaking news, or whatever’s on your mind, you’re in good company on BLOGHub. Sign up to discover why millions of people have published their passions here.</span>
+            </div>
+        </div>
+        
+        <h3 class="LPText">Latest Posts</h3>
+    </section>
+
+
+    <footer> 
+        <div class="social-icons">
+            <p>&copy; 2024 My Blog | Follow me:</p>
+            <a href="https://www.linkedin.com/in/debraj-maity-34a4a8227/" target="_blank"><i class="social-icon fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/ballervini" target="_blank"><i class="social-icon fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/_devraj.maity/?next=%2F" target="_blank"><i class="social-icon fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    
+
+    <script>
+        function redirectToLogin() {
+            window.location.href = "/login";
+        }
+    </script>    
+</body>
+</html>

@@ -1,0 +1,269 @@
+body {
+  font-family: 'Greycliff', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12%;
+  /*background-color: #C38D9E;*/
+  background-color: #1A1A1D;
+  position: relative; 
+  height: 15vh;
+  z-index: 1000;
+  position: fixed;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+ h2,h3, h5 {
+  font-family: 'Poppins', sans-serif;
+  color: #ffff;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+
+.blog {
+  color: #ffff; 
+  font-family: 'Poppins', sans-serif;
+}
+  
+.hub {
+  color: #ffff; 
+  font-family: 'Poppins', sans-serif;
+}
+  
+
+nav {
+  /*background-color: #C38D9E;*/
+  background-color: #1A1A1D;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  z-index: 1000;
+}
+
+.navbar{
+  padding-bottom: 1.5rem;
+  z-index: 1000;
+  position: fixed;
+}
+  
+.nav-item{
+  display: flex;
+  align-self: flex-end;
+  padding: 0 20px; 
+}
+  
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
+}
+  
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+
+/* styles.css */
+#content {
+  padding: 0px;
+  text-align: left;
+  width: 100%;
+  height: 600% ;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: Green#009B4D;
+  padding: 10px 15px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+.fa-solid{
+  display:flex;
+  align-items: flex-start;
+  margin: 0px 13px;
+  font-size: 3rem;
+}
+
+.scenery {
+  width: 100%; 
+  align-self: center;
+  opacity: 0.95;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 100px;
+  left: 20%;
+  color: #FAF9F6; 
+  text-align: center;
+  font-family: 'Raleway', sans-serif; 
+  font-size: 3.7rem; 
+}
+
+.overlay-text .heading{
+  /*color:#C38D9E;*/
+  color:#6F2232;
+  font-weight: bold;
+  display: inline-block;
+  margin: 5px;
+}
+
+.brief{
+  display: flex;
+  align-items: center;
+  padding: 100px 0px;
+  flex-direction: column;
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*background-color: #E8A87C;*/
+  background-color: #FAF9F6;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+
+.LPText{
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card {
+  width: 220px;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+ }
+ 
+ .shadow {
+  box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+              0 0  0 2px rgb(190, 190, 190),
+              0.3em 0.3em 1em rgba(0,0,0,0.3);           
+ }
+ 
+.card-content {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.postPic{
+  width: 220px;
+  height:200px;
+  /*border: 2px solid #000000;*/
+  border-radius: 10px;
+  transition: transform 0.3s ease-out;
+}
+ 
+.over_text{
+  position: absolute;
+  font-family: 'Lemon', sans-serif;
+  color: #000;
+  margin: 50%;
+  margin-left: 30%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.postPic:hover {
+  transform: translate(3%, 0%) scale(1.2); 
+}
+
+.start { 
+  background: url("https://images.unsplash.com/photo-1638184984605-af1f05249a56?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  height:350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+}
+
+.tt {
+  color:#FAF9F6; 
+}
+
+.over_button{
+  border-radius: 5px;
+}
+
+
+button {
+  padding: 0.8em 1.8em;
+  border: 2px solid #17C3B2;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: .3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #17C3B2;
+ }
+ 
+ button::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #17C3B2;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ button:hover::before {
+  width: 105%;
+ }
+ 
+ button:hover {
+  color: #111;
+ }
+ 
+ 
